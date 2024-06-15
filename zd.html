@@ -1,1 +1,162 @@
-﻿<!DOCTYPE html><html><head>    <meta charset="utf-8" />    <title>指定强度排行</title>    <link rel="icon" href="./favicon.ico" />    <link rel="stylesheet" href="./css/yzs.css" />    <style>        body {            font-family: Arial, sans-serif;            margin: 0;            padding: 0;            background-color: #f0f0f0; /* 背景颜色 */        }        .header {            background-color: black;            color: white;            padding: 20px;            text-align: center;        }        .tier {            margin: 20px;        }            .tier h2 {                text-align: center;                margin-bottom: 10px;            }        .deck-container {            display: flex;            justify-content: center; /* 水平居中 */            gap: 20px;            flex-wrap: wrap; /* 允许多行换行 */        }        .deck {            position: relative;            width: 200px;            height: 300px;        }            .deck img {                width: 100%;                height: 100%;                border-radius: 10px;            }            .deck p {                position: absolute;                bottom: 10px;                left: 50%;                transform: translateX(-50%);                color: white;                background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */                padding: 5px 10px;                border-radius: 5px;                margin: 0;            }    </style></head><body>    <header>        <nav class="navbar">            <ul>                <li><a href="yzs.html">主页</a></li>                <li><a href="zd.html">指定强度排行</a></li>                <li><a href="wx.html">无限制强度排行</a></li>            </ul>        </nav>    </header>    <div class="header">        <p>            该份牌组强度排行基于当前环境内的大赛数据，由系统自动生成。            我们采用了特定算法来计算每种牌组在当前环境中的强度定位。            请注意，在每次大赛后（通常为JCG），数据将会自动更新。            在每次版本更新或平衡性调整之后的初期阶段，我们会根据职业玩家的意见，手动编辑临时的牌组强度排行。        </p>    </div>    <div class="tier">        <h2>T1</h2>        <div class="deck-container">            <div class="deck">                <a href="造物仇.html">                    <img src="造物仇.png" alt="造物仇">                    <p>造物仇</p>                </a>            </div>            <div class="deck">                <a href="狂乱鬼.html">                    <img src="狂乱鬼.png" alt="狂乱鬼">                    <p>狂乱鬼</p>                </a>            </div>            <div class="deck">                <a href="护符教.html">                    <img src="护符教.png" alt="护符龙">                    <p>护符教</p>                </a>            </div>        </div>    </div>    <div class="tier">        <h2>T2</h2>        <div class="deck-container">            <!-- 替换为实际的卡组链接和图片 -->            <div class="deck">                <a href="自然妖.html">                    <img src="自然妖.png" alt="卡组5">                    <p>自然妖</p>                </a>            </div>            <div class="deck">                <a href="大哥龙.html">                    <img src="大哥龙.png" alt="卡组6">                    <p>大哥龙</p>                </a>            </div>            <div class="deck">                <a href="十牌鬼.html">                    <img src="十牌鬼.png" alt="卡组7">                    <p>十牌鬼</p>                </a>            </div>        </div>    </div>    <div class="tier">        <h2>T3</h2>        <div class="deck-container">            <!-- 替换为实际的卡组链接和图片 -->            <div class="deck">                <a href="自然皇.html">                    <img src="自然皇.png" alt="卡组8">                    <p>自然皇</p>                </a>            </div>            <div class="deck">                <a href="进化鬼.html">                    <img src="进化鬼.png" alt="卡组9">                    <p>进化鬼</p>                </a>            </div>            <div class="deck">                <a href="机械死.html">                    <img src="机械死.png" alt="卡组10">                    <p>机械死</p>                </a>            </div>        </div>    </div></body></html>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>指定强度排行</title>
+    <link rel="icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/yzs.css" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0; /* 背景颜色 */
+        }
+
+        .header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .tier {
+            margin: 20px;
+        }
+
+            .tier h2 {
+                text-align: center;
+                margin-bottom: 10px;
+            }
+
+        .deck-container {
+            display: flex;
+            justify-content: center; /* 水平居中 */
+            gap: 20px;
+            flex-wrap: wrap; /* 允许多行换行 */
+        }
+
+        .deck {
+            position: relative;
+            width: 200px;
+            height: 300px;
+        }
+
+            .deck img {
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+            }
+
+            .deck p {
+                position: absolute;
+                bottom: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                color: white;
+                background-color: rgba(0, 0, 0, 0.5); /* 半透明背景 */
+                padding: 5px 10px;
+                border-radius: 5px;
+                margin: 0;
+            }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">主页</a></li>
+                <li><a href="zd.html">指定强度排行</a></li>
+                <li><a href="wx.html">无限制强度排行</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="header">
+        <p>
+            该份牌组强度排行基于当前环境内的大赛数据，由系统自动生成。
+
+            我们采用了特定算法来计算每种牌组在当前环境中的强度定位。
+            请注意，在每次大赛后（通常为JCG），数据将会自动更新。
+
+            在每次版本更新或平衡性调整之后的初期阶段，我们会根据职业玩家的意见，手动编辑临时的牌组强度排行。
+        </p>
+    </div>
+
+    <div class="tier">
+        <h2>T1</h2>
+        <div class="deck-container">
+            <div class="deck">
+                <a href="造物仇.html">
+                    <img src="造物仇.png" alt="造物仇">
+                    <p>造物仇</p>
+                </a>
+            </div>
+            <div class="deck">
+                <a href="狂乱鬼.html">
+                    <img src="狂乱鬼.png" alt="狂乱鬼">
+                    <p>狂乱鬼</p>
+                </a>
+            </div>
+            <div class="deck">
+                <a href="护符教.html">
+                    <img src="护符教.png" alt="护符龙">
+                    <p>护符教</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tier">
+        <h2>T2</h2>
+        <div class="deck-container">
+            <!-- 替换为实际的卡组链接和图片 -->
+            <div class="deck">
+                <a href="自然妖.html">
+                    <img src="自然妖.png" alt="卡组5">
+                    <p>自然妖</p>
+                </a>
+            </div>
+            <div class="deck">
+                <a href="大哥龙.html">
+                    <img src="大哥龙.png" alt="卡组6">
+                    <p>大哥龙</p>
+                </a>
+            </div>
+            <div class="deck">
+                <a href="十牌鬼.html">
+                    <img src="十牌鬼.png" alt="卡组7">
+                    <p>十牌鬼</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="tier">
+        <h2>T3</h2>
+        <div class="deck-container">
+            <!-- 替换为实际的卡组链接和图片 -->
+            <div class="deck">
+                <a href="自然皇.html">
+                    <img src="自然皇.png" alt="卡组8">
+                    <p>自然皇</p>
+                </a>
+            </div>
+            <div class="deck">
+                <a href="进化鬼.html">
+                    <img src="进化鬼.png" alt="卡组9">
+                    <p>进化鬼</p>
+                </a>
+            </div>
+            <div class="deck">
+                <a href="机械死.html">
+                    <img src="机械死.png" alt="卡组10">
+                    <p>机械死</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
