@@ -1,0 +1,51 @@
+﻿/* 重置一些默认样式 */
+body, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* 设置整个网页的背景颜色和字体颜色 */
+body {
+    background: url('../背景.png') no-repeat center center fixed;
+    background-size: cover; /* 使背景图像覆盖整个屏幕 */
+    color: #fff; /* 设置文本颜色为深灰色 */
+}
+
+.white-text {
+    color: #fff; /* 白色文字 */
+}
+
+.black-text {
+    color: #000; /* 黑色文字 */
+    font-weight: bold; /* 设置为粗体以增强对比度 */
+}
+
+.container {
+    max-width: 960px; /* 设置最大宽度 */
+    margin: 40px auto; /* 上下居中对齐 */
+    display: flex; /* 使用flexbox布局 */
+}
+
+.card-image {
+    flex: 1; /* 占据左侧1/2的空间 */
+    padding: 20px; /* 内边距 */
+}
+
+    .card-image img {
+        max-width: 100%; /* 图片宽度最大不超过容器宽度 */
+        height: auto; /* 自适应高度 */
+        display: block; /* 去除底部空白 */
+    }
+
+.strategy {
+    flex: 1; /* 占据右侧1/2的空间 */
+    padding: 20px; /* 内边距 */
+}
+
+    .strategy h2 {
+        margin-bottom: 10px;
+    }
+
+    .strategy p {
+        line-height: 1.6; /* 设置行高 */
+    }
